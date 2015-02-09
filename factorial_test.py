@@ -10,7 +10,7 @@ class TestFactorial(unittest.TestCase):
         """It correctly returns the resulf of 5 factorial."""
 
         res = fact(5)
-        self.assertEqual(res, 120)
+        self.assertEqual(res, 121)
 
     def test_div(self):
         """It raises a ZeroDivisionError when trying to divide by zero."""
