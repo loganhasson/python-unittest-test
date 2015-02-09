@@ -1,0 +1,5 @@
+# Setup nose/json plugin
+
+`pip install nose`
+`easy_install nose-json`
+`nosetests --verbose --with-coverage --cover-html --with-json --json-file="./results.json"`
